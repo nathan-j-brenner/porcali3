@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="icon" type="image/ico" href="images/handprint.ico">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,15 +29,15 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand text-muted" href="#">Primal Touch</a>
+        <a class="navbar-brand text-muted" href="#myCarousel">Primal Touch</a>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#about">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Location</a></li>
-              <li><a href="#">Offerings</a></li>
-              <li><a href="#">Links</a></li>
-              <li><a href="#">Feedback</a></li>
+              <li class="active"><a href="#myCarousel">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#location">Location</a></li>
+              <li><a href="#offerings">Offerings</a></li>
+              <li><a href="#links">Links</a></li>
+              <li><a href="#myCarousel">Feedback</a></li>
             </ul>
         </div>
       </div>
@@ -55,29 +56,44 @@
         </ol>
         <div class="carousel-inner">
           <div class="item active">
-            <h2>Deep Tissue</h2>
-            <p>Deep tissue massage therapy is similar to Swedish massage, but the deeper pressure is beneficial in releasing chronic muscle tension. $99/hr.</p>
-            <img src="images/deep_tissue.jpeg" alt="Deep Tissue" />
+            <div style="background:url(images/deep_tissue.jpeg) center center; background-size:cover;" class="slider-size">
+              <div class="carousel-caption">
+                <h2>Deep Tissue</h2>
+                <p>Deep tissue massage therapy is similar to Swedish massage, but the deeper pressure is beneficial in releasing chronic muscle tension. $99/hr.</p>
+              </div>
+            </div>
           </div>
           <div class="item">
-            <h2>Swedish Message</h2>
-            <p>Swedish massage uses five styles of strokes. The five basic strokes are effleurage (sliding or gliding). $89/hr.</p>
-            <img src="images/swedish.jpeg" alt="Swedish Massage" />
+            <div style="background:url(images/swedish.jpeg) center center; background-size:cover;" class="slider-size">
+              <div class="carousel-caption">
+                <h2>Swedith Message</h2>
+                <p>Swedish massage uses five styles of strokes. The five basic strokes are effleurage (sliding or gliding). $89/hr.</p>
+              </div>
+            </div>
           </div>
           <div class="item">
-            <h2>Hot Stone Massage</h2>
-            <p>Hot stone massage is a specialty massage where the therapist uses smooth, heated stones as an extension of their own hands. $99/hr.
-            <img src="images/hot_stone.jpeg" alt="Hot Stones" />
+            <div style="background:url(images/hot_stone.jpeg) center center; background-size:cover;" class="slider-size">
+              <div class="carousel-caption">
+                <h2>Hot Stone Massage</h2>
+                <p>Hot stone massage is a specialty massage where the therapist uses smooth, heated stones as an extension of their own hands. $99/hr.</p>
+              </div>
+            </div>
           </div>
           <div class="item">
-            <h2>Rain Drop Therapy</h2>
-            <p>Raindrop technique is a powerful technique using essential oils that was developed by D. Gary Young in the 1980s. $89/hr.</p>
-            <img src="images/rain.jpeg" alt="Rain Drop Therapy" />
+            <div style="background:url(images/rain.jpeg) center center; background-size:cover;" class="slider-size">
+              <div class="carousel-caption">
+                <h2>Rain Drop Therapy</h2>
+                <p>Raindrop technique is a powerful technique using essential oils that was developed by D. Gary Young in the 1980s. $89/hr.</p>
+              </div>
+            </div>
           </div>
           <div class="item">
-            <h2>Shiatsu</h2>
-            <p>Shiatsu is a form of Japanese bodywork based on the theoretical framework of traditional Chinese medicine. $109/hr.</p>
-            <img src="images/shiatsu.jpeg" alt="Shiatsu" />
+            <div style="background:url(images/shiatsu.jpeg) center center; background-size:cover;" class="slider-size">
+              <div class="carousel-caption">
+                <h2>Shiatsu</h2>
+                <p>Shiatsu is a form of Japanese bodywork based on the theoretical framework of traditional Chinese medicine. $109/hr.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -174,62 +190,102 @@
 
     <div class="container">
       <div class="jumbotron">
-        <h1>About</h1>
-        <p class="lead">Many people in life find purpose in serving others.  At Primal Touch, we have been serving others by providing excellent service for over 20 years.  Our licensed staff is certified in many different forms of body care to help you live a more healthy lifestyle free of stress.  We're eager to earn your business!
-        </p>
-        <p class="btn-group">
-          <a class="btn btn-success btn-lg" href="#">Download the app</a>
-          <a class="btn btn-default btn-lg hidden-xs" data-toggle="modal"href="#textModal">Tell us about your visit</a>
-        </p>
+        <div id="about">
+          <h1>About</h1>
+          <p class="lead">Many people in life find purpose in serving others.  At Primal Touch, we have been serving others by providing excellent service for over 20 years.  Our licensed staff is certified in many different forms of body care to help you live a more healthy lifestyle free of stress.  We're eager to earn your business!
+          </p>
+          <audio>
+            <source src="https://ia902702.us.archive.org/6/items/RiteOfSpring/05LeSacreDuPrintempstheRiteOfSpringBalletIn2PartsForOrchestra.mp3" type="audio/mp3">
+            <source src="https://ia902702.us.archive.org/6/items/RiteOfSpring/05LeSacreDuPrintempstheRiteOfSpringBalletIn2PartsForOrchestra.ogg" type="audio/mp3">
+          </audio>
+            <a class="btn btn-success btn-lg hidden-xs" data-toggle="modal"href="#textModal">Tell us about your visit</a>
+          </p>
+        </div>
       </div>
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6" id="contact">
           <b class="glyphicon glyphicon-earphone"></b>
           <h1>Contact</h1>
           <p>Phone: (555) 555-5555</p>
           <p>Email: primalTouch@gmail.com</p>
          </div>
-         <div class="col-sm-6">
+         <div class="col-sm-6" id="location">
           <b class="glyphicon glyphicon-globe"></b>
           <h1>Location</h1>
-            <div id="location" class="clearSpacer">&nbsp;</div>
-              <section class="main_section">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.8606841823616!2d-122.68908399999997!3d45.53300900000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950a021ccd3b81%3A0x82eb37e909f3814e!2sPortland+Code+School!5e0!3m2!1sen!2sus!4v1422923407015" width="600" height="450" frameborder="0" style="border:0"></iframe>
+            <div class="clearSpacer">&nbsp;</div>
+              <section class="embed-responsive embed-responsive-16by9" class="main_section">
+                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.8606841823616!2d-122.68908399999997!3d45.53300900000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950a021ccd3b81%3A0x82eb37e909f3814e!2sPortland+Code+School!5e0!3m2!1sen!2sus!4v1422923407015" width="600" height="450" frameborder="0" style="border:0"></iframe>
               </section>
             </div>
        </div>
-       <div>
-          <h1>Offerings</h1>
-            <h2>Deep Tissue</h2>
-              <p>Deep tissue massage therapy is similar to Swedish massage, but the deeper pressure is beneficial in releasing chronic muscle tension. $99/hr.</p>
-            <h2>Swedish Message</h2>
-              <p>Swedish massage uses five styles of strokes. The five basic strokes are effleurage (sliding or gliding). $89/hr.</p>
-            <h2>Hot Stone Massage</h2>
-              <p>Hot stone massage is a specialty massage where the therapist uses smooth, heated stones as an extension of their own hands. $99/hr.
-            <h2>Rain Drop Therapy</h2>
-              <p>Raindrop technique is a powerful technique using essential oils that was developed by D. Gary Young in the 1980s. $89/hr.</p>
-            <h2>Shiatsu</h2>
-              <p>Shiatsu is a form of Japanese bodywork based on the theoretical framework of traditional Chinese medicine. $109/hr.</p>
+       <div class="offerings" id="offerings">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-5">
+                <h1><b>Offerings</b></h1>
+              </div>
+            </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <h2>Deep Tissue</h2>
+                <p>Deep tissue massage therapy is similar to Swedish massage, but the deeper pressure is beneficial in releasing chronic muscle tension. $99/hr.</p>
+            </div>
+            <div class="col-sm-4">
+              <h2>Swedish Message</h2>
+                <p>Swedish massage uses five styles of strokes. The five basic strokes are effleurage (sliding or gliding). $89/hr.</p>
+            </div>
+            <div class="col-sm-4">
+              <h2>Hot Stone Massage</h2>
+                <p>Hot stone massage is a specialty massage where the therapist uses smooth, heated stones as an extension of their own hands. $99/hr.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 col-sm-offset-2">
+              <h2>Rain Drop Therapy</h2>
+                <p>Raindrop technique is a powerful technique using essential oils that was developed by D. Gary Young in the 1980s. $89/hr.</p>
+            </div>
+            <div class="col-sm-4 col-sm-offset-1">
+              <h2>Shiatsu</h2>
+                <p>Shiatsu is a form of Japanese bodywork based on the theoretical framework of traditional Chinese medicine. $109/hr.</p>
+            </div>
+          </div>
        </div>
-       <div>
-          <h1>Links</h1>
-            <a href="http://www.oregonschoolofmassage.com/">Oregon School of Massage</a>
-            <a href="http://aamt.com.au/wp-content/uploads/2011/11/AAMT-Research-Report-10-Oct-11.pdf">Why get a massage?</a>
-       </div>
+       <div class="links" id="links">
+         <div class="row">
+            <div class="col-sm-6 col-sm-offset-6">
+              <h1>Links</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3 col-sm-offset-4">
+              <a href="http://www.oregonschoolofmassage.com/">Oregon School of Massage</a>
+            </div>
+            <div class="col-sm-2">
+              <a href="http://aamt.com.au/wp-content/uploads/2011/11/AAMT-Research-Report-10-Oct-11.pdf">Why get a massage?</a>
+            </div>
+          </div>
+        </div>
       <footer>
-        <h2>&copy porcali 2015</h2>
-        <a href="[full link to your Twitter]" >
-        <img class="social_media" title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/twitter1.png"/>
-        </a>
-        <a href="[full link to your LinkedIn]">
-        <img class="social_media" title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/linkedin1.png"/>
-        </a>
-        <a href="[full link to your Facebook page]">
-        <img class="social_media" title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/facebook1.png"/>
-        </a>
-        <a href="[full link to your RSS feed]">
-        <img class="social_media" title="RSS" alt="RSS" src="https://socialmediawidgets.files.wordpress.com/2014/03/rss1.png"/>
-        </a>
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-5">
+            <h2>&copy porcali 2015</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-5">
+            <a href="https://twitter.com/" >
+            <img class="social_media" title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/twitter1.png"/>
+            </a>
+            <a href="https://www.linkedin.com/">
+            <img class="social_media" title="LinkedIn" alt="LinkedIn" src="https://socialmediawidgets.files.wordpress.com/2014/03/linkedin1.png"/>
+            </a>
+            <a href="https://www.facebook.com/">
+            <img class="social_media" title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/facebook1.png"/>
+            </a>
+            <a href="https://www.rss.com/">
+            <img class="social_media" title="RSS" alt="RSS" src="https://socialmediawidgets.files.wordpress.com/2014/03/rss1.png"/>
+            </a>
+          </div>
+        </div>
       </footer>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

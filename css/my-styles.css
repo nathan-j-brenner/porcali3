@@ -23,7 +23,7 @@ body {
 	font-size: 3em;
 	display: block;
 	text-align: center;
-	color: #3a87ad;
+	color: #000;
 }
 
 /* Carousel
@@ -41,6 +41,40 @@ body {
 	border-color: #222;
 }
 
-img {
-	text-align: center;
+.slider-size {
+	height: 400px; /* This is your slider height */
 }
+
+.carousel {
+	width:100%; 
+	margin:0 auto; /* center your carousel if other than 100% */ 
+}
+
+/* colors
+============================= */
+body {
+	background: linear-gradient(#FFFFFF, #BF6C19, #4A2500);
+}
+
+.offerings {
+	color: #CC9900;
+}
+
+.links {
+	color: #CC9900;
+}
+
+footer {
+	color: #CC9900;
+}
+/* Social Media
+============================= */
+.social_media {
+	width: 50px;
+	height: 50px;
+	display: inline;
+}
+
+
+
+
